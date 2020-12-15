@@ -6,12 +6,12 @@ pragma solidity ^0.4.26;
 * This smart contract has no owner!
 * Owners - all Shareholders.
 * 
-* [✓] 5% Withdraw fee
-* [✓] 10%  Deposit fee
-* [✓] 0,0% Token transfer
-* [✓] 3%   Referal link or, if there is none, to support the project.
+* [✓] 5%    Withdraw fee
+* [✓] 10%   Deposit fee
+* [✓] 0,0%  Share transfer
+* [✓] 3%    Referal link or, if there is none, to support the project.
 *
-* https://github.com/alexburndev/rostov/blob/main/rostov_dig_as.sol
+* https://github.com/lib2020usa/smartcontracts/blob/main/liberty.sol
 *
 */
 
