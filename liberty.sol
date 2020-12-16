@@ -107,9 +107,9 @@ contract LIBERTY  {
     string public name = "LIBERTY digital share";
     string public symbol = "LIBERTY";
     uint8 constant public decimals = 18;
-    uint8 constant internal entryFee_ = 10; //(10/100=10%)
-    uint8 constant internal exitFee_ = 5; //(5/100=5%)
-    uint8 constant internal refferalFee_ = 3; //(3/100 = 3%)
+    uint8 constant internal entryFee_ = 10; //(100%)
+    uint8 constant internal exitFee_ = 5; //(5%)
+    uint8 constant internal refferalFee_ = 3; //(3%)
     uint256 constant internal tokenPriceInitial_ = 0.000000001 ether;
     uint256 constant internal tokenPriceIncremental_ = 0.0000000001 ether;
     uint256 constant internal magnitude = 2 ** 64;
@@ -117,8 +117,8 @@ contract LIBERTY  {
     mapping(address => uint256) internal referralBalance_;
     mapping(address => int256) internal payoutsTo_;
     mapping (address => uint256) internal balances;
-    address internal addressSupportProject = 0x009AE8DDCBF8aba5b04d49d034146A6b8E3a8B0a;
-    address internal addressAdvancementProject = 0x76E40e08e10c8D7D088b20D26349ec52932F8BC3;
+    address internal addressSupportProject = 0xf88c0A7d6f3a9c7b607983e2d791c48923982465;
+    address internal addressAdvancementProject = 0xFe7d0be30927E800F0ED2eb8C0939f0FDBec75B5;
     uint256 internal tokenSupply_ ;
     uint256 internal profitPerShare_;
     
